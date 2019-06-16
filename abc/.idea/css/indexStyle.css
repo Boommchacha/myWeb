@@ -1,0 +1,140 @@
+html,html>*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#navigation
+{
+    width: 100%;
+    height: 50px;
+    background-image:linear-gradient(180deg,rgba(53,53,53,1),rgba(20,20,20,1));
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+.naviContent
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.mainButton
+{
+    list-style-type:none;
+    margin:0;
+    float: right;
+    padding:0;
+}
+
+.mainButton>li
+{
+    display: inline-block;
+    padding:10px 0px;
+    font-size: 1.3em;
+    color: white;
+    height: 30px;
+    overflow: hidden;
+	vertical-align: top;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.mainButton>li>span
+{
+    padding-left: 10px;
+}
+.mainButton>li:hover
+{
+    height: 160px;
+    background-color: white;
+    color: black;
+}
+
+/*
+{
+    height:150px;
+    color: black;
+}
+*/
+.subButton>li>a
+{
+    text-decoration:none;
+    font-size: 1.1em;
+	text-transform: capitalize;
+    color: black;
+}
+.subButton
+{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+.subButton>li
+{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right:30px;
+
+}
+.subButton>li:hover
+{
+    background-color:black;
+}
+.subButton>li:hover >a
+{
+    color: white;
+}
+
+#banner
+{
+    margin-top:50px;
+    padding: 10px;
+    background-image: url("../img/f123.png");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+#banner>h1
+{
+    text-align: center;
+    font-size: 1.6em;
+    color:white;
+    text-transform: capitalize;
+    width: 430px;
+    margin: 50px auto 30px auto;
+    padding: 15px 20px;
+    border-radius:80px;
+    text-shadow: 4px 4px  orangered;
+    border:orangered solid 2px;
+}
+#banner>p
+{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3em;
+}
+.picture
+{
+    width: 100%;
+    font-size: 0;
+    padding-top:3px;
+    background-image:linear-gradient(0deg,rgb(17,77,247)0%,rgb(86,214,203)45%,rgb(202,157,236)99%);
+}
+
+
+#picture_1,#picture_3,#picture_2,#picture_4
+{
+    display: inline-block;
+    width: 25%;
+    vertical-align: bottom;
+}
+
+.picture img
+{   width: 100%;
+
+}

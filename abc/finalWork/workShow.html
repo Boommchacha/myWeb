@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
+    <style>
+        a
+        {
+            text-decoration: none;
+        }
+        #news
+        {
+            padding-top: 100px;
+        }
+        .newsContent
+        {
+            width: 32%;
+            border: 3px solid pink;
+            border-radius:5px;
+            padding: 5px;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        .newsContent>p
+        {
+            font-size:0.7em;
+            color: darkgray;
+        }
+        .image
+        {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+
+        .button
+        {
+            display: inline-block;
+            border: 2px solid pink;
+            color: pink;
+            font-size: 0.7em;
+            padding: 5px 15px;
+            transition:all 0.3s 0s ease;
+            float: right;
+            margin-top: 15px;
+        }
+
+        .button:hover
+        {
+            border-radius:15px;
+        }
+
+
+        @media screen and (max-width: 830px) and (min-width: 600px)
+        {
+            .newsContent
+            {
+                width: 49%;
+            }
+        }
+
+        @media  screen and (max-width: 600px)
+        {
+            .newsContent
+            {
+                width: 100%;
+            }
+
+
+
+        }
+
+    </style>
+</head>
+<body ontouchstart>
+<!--this is navigation part-->
+<div id="navigation">
+    <div class="mainContent">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" width="30px" style="margin: 10px;">
+            <span>ommc</span>
+        </div>
+        <ul class="supNav">
+            <li><a href="index.html">公司主页</a>
+                <ul class="subNav">
+                    <li><a href="">Lorem</a></li>
+                    <li><a href="">ipsum</a></li>
+                    <li><a href="">dolor.</a></li>
+                </ul>
+            </li>
+            <li><a href="information.html"> 公司概要</a>
+                <ul class="subNav">
+                    <li><a href="">Lorem</a></li>
+                    <li><a href="">ipsum</a></li>
+                    <li><a href="">dolor.</a></li>
+                </ul>
+            </li>
+            <li><a href="news.html"> 最新动态</a>
+                <ul class="subNav">
+                    <li><a href="">Lorem</a></li>
+                    <li><a href="">ipsum</a></li>
+                    <li><a href="">dolor.</a></li>
+                </ul>
+            </li>
+            <li><a href="workShow.html" class="pageSpot"> 作品展示</a>
+                <ul class="subNav">
+                    <li><a href="">Lorem</a></li>
+                    <li><a href="">ipsum</a></li>
+                    <li><a href="">dolor.</a></li>
+                </ul>
+            </li>
+            <li><a href="mainDirection.html">主要业务</a>
+                <ul class="subNav">
+                    <li><a href="">Lorem</a></li>
+                    <li><a href="">ipsum</a></li>
+                    <li><a href="">dolor.</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html" >联系我们</a>
+                <ul class="subNav">
+                    <li><a href="">Lorem</a></li>
+                    <li><a href="">ipsum</a></li>
+                    <li><a href="">dolor.</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+<!--this is end of navigation part-->
+
+<!--this is news part-->
+<div id="news" class="mainContent">
+    <div class="newsContent" >
+        <div class="image" >
+            <img src="img/n1.jpg" alt="" width="100%">
+        </div>
+        <h4>狐妖小红娘</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《狐妖小红娘》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <a href=""> <div class="button">更多</div></a>
+
+    </div>
+    <div class="newsContent" style="border: solid 3px rgb(40,168,221);" >
+        <div class="image">
+            <img src="img/n2.jpg" alt="" width="100%">
+        </div>
+        <h4>我的逆天神器</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《我逆天神器》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <div class="button" style="border:solid 2px rgb(40,168,221);"><a href="" style="color: rgb(40,168,221);">更多</a></div>
+
+    </div>
+
+
+    <div class="newsContent" style="border: solid 3px rgb(105,219,205);">
+        <div class="image" >
+            <img src="img/n3.jpg" alt="" width="100%">
+        </div>
+        <h4>银之守墓人</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《狐妖小红娘》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <a href=""><div class="button" style="border:solid 2px rgb(105,219,205);color: rgb(105,219,205);">更多</div></a>
+
+    </div>
+
+
+
+    <div class="newsContent" style="border: solid 3px rgb(40,168,221);" >
+        <div class="image">
+            <img src="img/n2.jpg" alt="" width="100%">
+        </div>
+        <h4>我的逆天神器</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《我逆天神器》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <div class="button" style="border:solid 2px rgb(40,168,221);"><a href="" style="color: rgb(40,168,221);">更多</a></div>
+
+    </div>
+
+
+    <div class="newsContent" style="border: solid 3px rgb(105,219,205);">
+        <div class="image" >
+            <img src="img/n3.jpg" alt="" width="100%">
+        </div>
+        <h4>银之守墓人</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《狐妖小红娘》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <a href=""><div class="button" style="border:solid 2px rgb(105,219,205);color: rgb(105,219,205);">更多</div></a>
+
+    </div>
+
+    <div class="newsContent" >
+        <div class="image" >
+            <img src="img/n1.jpg" alt="" width="100%">
+        </div>
+        <h4>狐妖小红娘</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《狐妖小红娘》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <a href=""><div class="button">更多</div></a>
+
+    </div>
+
+    <div class="newsContent" >
+        <div class="image" >
+            <img src="img/n1.jpg" alt="" width="100%">
+        </div>
+        <h4>狐妖小红娘</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《狐妖小红娘》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <a href=""><div class="button">更多</div></a>
+
+    </div>
+    <div class="newsContent" style="border: solid 3px rgb(40,168,221);" >
+        <div class="image">
+            <img src="img/n2.jpg" alt="" width="100%">
+        </div>
+        <h4>我的逆天神器</h4>
+        <p>
+            漫画的创作灵感来源于中国古典神话。小新认为，爱情是文艺创作的一个永恒主题。
+            他把从角色中感受到的情绪用自己的理解展现出来，再加上中国神话，就创作出了
+            《我逆天神器》这个“玄幻搞笑纯情虐恋”的故事。
+        </p>
+        <a href=""><div class="button" style="border:solid 2px rgb(40,168,221);color: rgb(40,168,221);">更多</div></a>
+
+    </div>
+
+</div>
+<!--this is end of news part-->
+
+<!--this is footer part-->
+<div id="footer">
+    <p> Boommchacha</p>
+    <p>Jianbo Zhang  2016214325</p>
+    <p>Chongqing University of Posts and Telecommunications</p>
+</div>
+
+<!--this is end of footer part-->
+</body>
+</html>

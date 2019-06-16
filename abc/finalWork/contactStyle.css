@@ -1,0 +1,40 @@
+.contaContent {
+    background-image:url("img/67.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    margin-bottom:200px;
+}
+
+.contaContent ul
+{
+    list-style-type: none;
+}
+
+.contaContent ul a
+{
+    text-decoration: none;
+    border: 2px solid white;
+    padding:  10px;
+    border-radius:20px;
+    font-size: 1.3em;
+    color: white;
+    transition-property: all;
+    transition-duration:0.3s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
+}
+
+.contaContent ul a:hover
+{
+    border-radius:0px;
+    background-color: rgb(57,51,94);
+    color:#F49D28;
+    border-color:#F49D28;
+}
+
+.contaContent ul li
+{
+    margin-bottom: 40px;
+}

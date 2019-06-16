@@ -1,0 +1,160 @@
+html,html *
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 黑体;
+}
+
+a
+{
+    text-decoration: none;
+
+}
+ul
+{
+    list-style-type: none;
+}
+
+#navigation
+{
+    background: rgba(0,0,0,.9);
+    height: 50px;
+
+    position: fixed;
+    width: 100%;
+}
+
+.logo
+{
+    display: inline-block;
+    line-height: 50px;
+    color: white;
+    font-size: 1.3em;
+    font-family: Impact;
+}
+#superNavi
+{
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+}
+
+#superNavi>li
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    padding: 0 10px;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+#superNavi>li:hover
+{
+    background-color:white ;
+    height:inherit;
+}
+#superNavi>li:hover>a
+{
+    color: black;
+}
+#superNavi>li>a
+{
+    color: white;
+    line-height:50px;
+}
+
+.subNavi>li>a
+{
+    padding: 10px 10px 10px 0px;
+    display: inline-block;
+    color: black;
+}
+
+.subNavi>li>a :hover
+{
+    background: black;
+    color: white;
+}
+.contentCenter
+{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#banner
+{
+    background-image: url(../img/f123.png);
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#banner h1
+{
+    border: 2px solid deeppink;
+    border-radius:30px;
+    padding: 15px;
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+    text-shadow:2px 2px deeppink;
+}
+#banner p
+{
+    margin:50px;
+}
+
+#animation
+{
+    background-image:linear-gradient(0deg,rgb(17,77,247)0%,rgb(86,214,203)45%,rgb(202,157,236)99%);
+    height: 300px;
+    text-align: center;
+
+}
+
+#animation>a
+{
+    font-family: Impact;
+    font-size: 4.7em;
+    color: white;
+    text-shadow: 3px 3px #F49D28;
+    line-height: 300px;
+}
+
+#animation>a:hover
+{
+    color: #F49D28;
+    text-shadow: -3px -3px white;
+}
+
+#footer
+{
+    height: 200px;
+    vertical-align: bottom;
+    margin-top: 70px;
+    padding-top: 160px;
+    text-align: center;
+    background-image: url("../img/hhh.jpg");
+    background-size: cover;
+}
+#footer>span
+{
+
+    display: block;
+    font-size: 0.7em;
+    color: white;
+}
+
+#footer>span>a
+{
+padding:5px;
+    color: white;
+}

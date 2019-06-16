@@ -1,0 +1,89 @@
+.mainButton>li
+{
+    font-size:.9em;
+}
+.subButton>li>a
+{
+    font-size: 0.8em;
+}
+#navigation
+{
+    height: 40px;
+}
+.naviContent
+{
+    width: 100%;
+}
+.mainButton>li:hover
+{
+    height: 115px;
+    background-color: white;
+    color: black;
+}
+
+.subButton>li:hover
+{
+    background-color:black;
+
+}
+.subButton>li:hover >a
+{
+    color: white;
+}
+
+#banner
+{
+    margin-top: 40px;
+    height: 600px;
+}
+
+
+#banner>h1 {
+
+    margin-top: 80px;
+    font-size: 1em;
+    width: 270px;
+}
+#banner>p
+{
+    font-size: .99em;
+}
+
+
+#picture_1,#picture_2,#picture_3,#picture_4
+{
+    width: 100%;
+    margin-bottom: 3px;
+}
+.picture
+{
+    background: none;
+}
+#picture_1
+{
+    background-image:linear-gradient(0deg,rgb(17,77,247)0%,rgb(86,214,203)45%,rgb(202,157,236)99%);
+    height: 300px;
+}
+#picture_1>a
+{
+    font-size: 2.5em;
+}
+#picture_2
+{
+    background-image:linear-gradient(0deg,rgb(19,74,231)0%,rgb(246,87,165)45%,rgb(202,157,236)99%);
+}
+
+#picture_3
+{
+
+    background-image:linear-gradient(0deg,rgb(231,19,104)0%,rgb(246,87,165)45%,rgb(204,58,79)99%);
+}
+#picture_4
+{
+    background-image:linear-gradient(0deg,rgb(255,168,0)0%,rgb(250,72,122)100%);
+}
+
+.picture img
+{
+    width: 100%;
+}

@@ -1,0 +1,383 @@
+html,html *
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    font-family: 黑体;
+}
+
+.mainContent
+{
+ width: 80%;
+    margin:0 auto;
+}
+.pageSpot
+{
+    border-bottom: solid white 2px;
+}
+/*this is navigation part*/
+#navigation
+{
+    width: 100%;
+    height: 50px;
+    border: 1px black solid;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top:0;
+    left: 0;
+
+
+}
+
+.logo
+{
+    display: inline-block;
+}
+#navigation a
+{
+    text-decoration: none;
+}
+
+#navigation>.mainContent span
+{
+    color: white;
+    line-height: 50px;
+    vertical-align: top;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: Impact;
+}
+.supNav
+{
+    list-style-type: none;
+    float:right;
+    display: inline-block;
+    padding: 0px;
+}
+.supNav>li
+{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    padding:0px 5px;
+    height: 50px;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+
+}
+.supNav>li>a
+{
+    line-height: 50px;
+    font-size: 0.9em;
+    color: white;
+    padding: 0px 5px;
+}
+.supNav>li:hover
+{
+    height: 150px;
+    background: white;
+}
+.supNav>li:hover >a
+{
+    color: black;
+    border-bottom:black solid 1px;
+    padding: 5px;
+}
+
+
+.subNav
+{
+    list-style-type: none;
+
+}
+.subNav>li>a
+{
+    padding: 10px 30px 10px 0px;
+    line-height: 30px;
+    font-size: 0.9em;
+    color: black;
+    padding: 0px 5px;
+}
+
+
+/*this is end of navigation part*/
+
+/*this is banner part*/
+#banner
+{
+    background-image: url(img/banner.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+
+}
+
+#bannerContent
+{
+    padding-top: 180px;
+    width: 50%;
+    margin: 0 auto;
+}
+#bannerContent>h1
+{
+    font-family: Impact;
+}
+
+
+.table-center {
+    margin: 70px auto 20px auto;
+    width: 90%;
+
+}
+
+.table-center a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.button1 {
+    width: 100px;
+    height: 100px;
+    border: black solid ;
+    text-align: center;
+    padding: 25px;
+    border-radius: 100px;
+    margin: 0 auto;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+
+}
+
+.button1:hover
+{
+    width: 120px;
+    height: 120px;
+    font-size: 1.3em;
+    padding: 30px;
+}
+
+/*this is end of banner part*/
+
+/*this is workNews part*/
+#workNews
+{
+
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+#workNews>.mainContent
+{
+    margin: 20px auto;
+}
+#workNews>.mainContent>h1
+{
+    line-height: 21px;
+    text-align: center;
+
+}
+#workNews>.mainContent>span
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.part1
+{
+    text-align: center;
+}
+.part1>img
+{
+    margin-bottom: 50px;
+}
+.percent50
+{
+    width: 50%;
+}
+.part1Text
+{
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+.part1Text:last-child
+{
+    width: 100%;
+}
+
+
+
+.colorChange
+{
+    display: inline;
+  background-image:linear-gradient(225deg,rgb(73,51,241)0%,rgb(140,62,207)49%,rgb(121,211,240)100%);
+  background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+/*this is end of workNews part*/
+
+/*this is footer part*/
+#footer
+{
+    background-image:url("img/footer.jpg");
+    background-size: cover;
+    height: 150px;
+    text-align:center;
+    padding-top: 100px;
+}
+#footer>p
+{
+    font-size: 0.7em;
+    color: white;
+    line-height: 15px;
+}
+/*this is end of footer part*/
+@media screen and (min-width: 600px) and (max-width:830px)  {
+
+    #navigation>.mainContent span
+    {
+        font-size: 1em;
+    }
+
+    #navigation>.mainContent img
+    {
+        width: 25px;
+    }
+
+
+    .subNav>li>a
+    {
+        font-size: 0.7em;
+    }
+    .supNav>li>a
+    {
+        font-size: 0.7em;
+        padding: 0px;
+    }
+    .supNav>li
+    {
+        padding: 0px;
+    }
+
+    .table-center
+    {
+        width: 100%;
+    }
+
+}
+
+@media  screen and (max-width: 600px) {
+
+    #navigation>.mainContent
+    {
+
+        height: 50px;
+        overflow: hidden;
+        margin: 0;
+        width: 100%;
+
+
+    }
+    #navigation>.mainContent:hover
+    {
+            height: 255px;
+            background: rgba(0,0,0,0.9);
+    }
+
+    .pageSpot
+    {
+        border: none;
+    }
+
+    .supNav>li>a
+    {
+        font-size: 0.9em;
+        color: gray;
+        line-height: 20px;
+    }
+    .logo
+    {
+        height: 50px;
+        overflow: hidden;
+        display: block;
+        margin-left: 20px;
+    }
+    .supNav
+    {
+
+        margin-top:0;
+        width: 150px;
+        float: left;
+
+    }
+    .supNav>li
+    {
+        display: block;
+        height:30px;
+        padding:5px 0 0 70px;
+
+    }
+
+
+    .supNav>li:hover
+    {
+        background: none;
+        height: 30px;
+    }
+
+    .supNav>li:hover >a
+    {
+        color: white;
+        border: none;
+    }
+
+    .subNav
+    {
+        display: none;
+    }
+
+    #bannerContent>h1
+    {
+        font-size: 1.4em;
+    }
+
+    #bannerContent
+    {
+        text-align: center;
+        width: 80%;
+    }
+    #bannerContent>p
+    {
+        font-size: 0.8em;
+    }
+    .button1
+    {
+        display: none;
+    }
+
+    .percent50
+    {
+        width: 80%;
+    }
+    .part1Text
+    {
+        width: 100%;
+    }
+}
+
+/*this is responsive part*/
+
+/*this is end of responsive part*/
